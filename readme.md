@@ -75,7 +75,7 @@ print(response.output_text)
 
 O Postman agora possui suporte também para MCP. Ou seja, além de servir para testar endpoints de APIs, ele consegue também conectar em servidores de MCP para testar.
 
-Para tanto, clique em "File" > "New" e escolha a opção "MCP". Então, é só informar o endepoint do MCP.
+Para tanto, clique em "File" > "New" e escolha a opção "MCP". Então, é só informar o endpoint do MCP.
 
 Escolha o tipo "HTTP" para servidores MCP remotos e "STDIO" para servidores MCP locais. Falarei mais adiante sobre o servidores MCP locais, já que os exemplos citados lidam com servidores remotos.
 
@@ -244,7 +244,7 @@ response = client.responses.create(
     tools=[
         {
             "type": "mcp",
-            "server_label": "cotacao",
+            "server_label": "playwright",
             "server_url": "https://a092444f0de5.ngrok-free.app/sse",
             "require_approval": "never"
         }
@@ -302,7 +302,7 @@ Dois detalhes importantes ao se usar a API da OpenAI para desenvolver clients de
 
 Servidores MCP, como o nome diz ("Model Context Protocol") foram concebidos para adicionar mais contexto às chamadas de IA. Ou seja, foram concebidos na visão "READ", qual seja, ler dados em determinados serviço e adicionar esses dados no contexto do LLM.
 
-Todavia, servidores MCP podem também ser concebidos na visão "WRITE", qual seja, podem por exemplo gravar dados em um banco de dados, alterar registros, mover recursos e realizar qualquer tipo de ação a critério do programador.
+Todavia, servidores MCP podem também ser concebidos na visão "WRITE". Eles podem, por exemplo, gravar dados em um banco de dados, alterar registros, mover recursos e realizar qualquer tipo de ação a critério do programador.
 
 Um servidor MCP pode também executar um outro agente de IA. Ou seja, um agente de IA pode ser distribuído para consumo de outros agentes de IA através do MCP.
 
@@ -312,17 +312,17 @@ Essas visões vão muito além do que simplesmente adicionar contexto e permitem
 
 [https://mcpservers.org](https://mcpservers.org)
 [https://remote-mcp.com](https://remote-mcp.com)
-[https://mcpmarket.com](https://mcpmarket.com)
-[https://pulsemcp.com](https://pulsemcp.com)
+[https://mcpmarket.com](https://mcpmarket.com)   
+[https://pulsemcp.com](https://pulsemcp.com)   
 
 [https://docs.claude.com/en/docs/agents-and-tools/remote-mcp-servers](https://docs.claude.com/en/docs/agents-and-tools/remote-mcp-servers)
-[https://github.com/modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers)
-[https://github.com/jaw9c/awesome-remote-mcp-servers](https://github.com/jaw9c/awesome-remote-mcp-servers)
+[https://github.com/modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers)   
+[https://github.com/jaw9c/awesome-remote-mcp-servers](https://github.com/jaw9c/awesome-remote-mcp-servers)   
 
 ...
 ...
 ...
 Maurício Garcia
 ...
-...
+...   
 ...
