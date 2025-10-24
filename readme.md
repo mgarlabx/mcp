@@ -255,6 +255,16 @@ print(response.output_text)
 
 (ver exemplo_08.ipynb)
 
+### Docker
+
+Para os que estão habituados a trabalhar com o Docker, há uma interessante opção para centralizar servidores MCP em um único ponto, o **Docker MCP Gateway**.
+
+O processo é muito simples, basta selecionar os servidores desejados na interface do Docker Desktop e depois executar esse comando:
+
+`docker mcp gateway run`
+
+Outras opções estão disponíveis, ver [aqui](https://github.com/docker/mcp-gateway/blob/main/docs/mcp-gateway.md) a documentação.
+
 ## MCP Clients
 
 ### FastMCP Client
@@ -310,20 +320,20 @@ Essas visões vão muito além do que simplesmente adicionar contexto e permitem
 
 ### Saiba mais
 
-[https://mcpservers.org](https://mcpservers.org)       
-[https://remote-mcp.com](https://remote-mcp.com)       
-[https://mcpmarket.com](https://mcpmarket.com)       
-[https://pulsemcp.com](https://pulsemcp.com)      
-[https://smithery.ai](https://smithery.ai)      
-       
-[https://docs.claude.com/en/docs/agents-and-tools/remote-mcp-servers](https://docs.claude.com/en/docs/agents-and-tools/remote-mcp-servers)       
-[https://github.com/modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers)       
-[https://github.com/jaw9c/awesome-remote-mcp-servers](https://github.com/jaw9c/awesome-remote-mcp-servers)       
-       
-...       
-...       
-...       
-Maurício Garcia       
-...       
-...          
-...       
+[https://mcpservers.org](https://mcpservers.org)
+[https://remote-mcp.com](https://remote-mcp.com)
+[https://mcpmarket.com](https://mcpmarket.com)
+[https://pulsemcp.com](https://pulsemcp.com)
+[https://smithery.ai](https://smithery.ai)
+
+[https://docs.claude.com/en/docs/agents-and-tools/remote-mcp-servers](https://docs.claude.com/en/docs/agents-and-tools/remote-mcp-servers)
+[https://github.com/modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers)
+[https://github.com/jaw9c/awesome-remote-mcp-servers](https://github.com/jaw9c/awesome-remote-mcp-servers)
+
+...
+...
+...
+Maurício Garcia
+...
+...
+...
