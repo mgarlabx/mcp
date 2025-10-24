@@ -265,6 +265,8 @@ O processo é muito simples, basta selecionar os servidores desejados na interfa
 
 Outras opções estão disponíveis, ver [aqui](https://github.com/docker/mcp-gateway/blob/main/docs/mcp-gateway.md) a documentação.
 
+Esse [vídeo](https://www.youtube.com/watch?v=-gpVCg_ButA) tem uma boa explicação desse recurso.   
+
 ## MCP Clients
 
 ### FastMCP Client
