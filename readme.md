@@ -12,7 +12,7 @@ Vamos ver no código como isso funciona. Nesse texto usaremos o framework da Ope
 
 Uma chamada de IA ("inference") é feita assim
 
-```
+```python
 from openai import OpenAI
 import os
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
@@ -29,7 +29,7 @@ Obviamente, o script acima não irá retornar a cotação, pois o modelo não te
 
 Antes do MCP, era necessário fazer essa consulta em duas etapas. O script abaixo consulta o serviço da [Alpha Vantage](https://www.alphavantage.co), fazendo um `request` e depois injeta o resultado no prompt da chamada da IA (para obter uma chave de API da Alpha Vantage, clique [aqui](https://www.alphavantage.co/support/#api-key). A versão gratuita permite 25 chamadas por dia).
 
-```
+```python
 from openai import OpenAI
 import os
 import requests
@@ -50,7 +50,7 @@ print(response.output_text)
 
 Já no exemplo abaixo, ao invés de usar a API da Alpha Vantage, o script usa o seu MCP, incluindo os parâmetros na própria chamada da IA, reduzindo o processo para apenas uma etapa.
 
-```
+```python
 from openai import OpenAI
 import os
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
@@ -89,7 +89,7 @@ Antes de iniciar, é importante explicar as versões 1.0 e 2.0. O FastMCP foi pi
 
 Um código simples de um servidor MCP é esse:
 
-```
+```python
 from fastmcp import FastMCP
 import os
 import requests
@@ -134,7 +134,7 @@ Ele irá gerar um endpoint web, algo como `https://a092444f0de5.ngrok-free.app`.
 
 Veja como fica o script do "client":
 
-```
+```python
 from openai import OpenAI
 import os
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
@@ -159,7 +159,7 @@ print(response.output_text)
 
 É possível implementar um protocolo de autenticação. A FastMCP tem vários [recursos](https://gofastmcp.com/servers/auth/authentication) para isso, o script a seguir é o mais [simples](https://gofastmcp.com/servers/auth/token-verification#static-token-verification):
 
-```
+```python
 from fastmcp import FastMCP
 from fastmcp.server.auth.providers.jwt import StaticTokenVerifier
 
@@ -192,7 +192,7 @@ Para testar esse servidor no Postman, é preciso incluir nos "Headers":
 
 No `responses` o script fica assim:
 
-```
+```python
 from openai import OpenAI
 import os
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
@@ -234,7 +234,7 @@ Para criar o "tunnel" no Ngrok, é preciso passar uma instrução adicional:
 
 O script do client fica dessa forma:
 
-```
+```python
 from openai import OpenAI
 import os
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
@@ -275,7 +275,7 @@ Até aqui, mostramos como acessar servidores MCP usando o `responses` da OpenAI.
 
 O script abaixo mostra como acessar um servidor MCP (no caso, o `exemplo_04.py`):
 
-```
+```python
 import asyncio
 from fastmcp import Client
 
@@ -332,10 +332,4 @@ Essas visões vão muito além do que simplesmente adicionar contexto e permitem
 [https://github.com/modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers)      
 [https://github.com/jaw9c/awesome-remote-mcp-servers](https://github.com/jaw9c/awesome-remote-mcp-servers)      
       
-...      
-...      
-...      
-Maurício Garcia      
-...      
-...      
-...      
+.
