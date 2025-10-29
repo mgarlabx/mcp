@@ -46,7 +46,7 @@ response = client.responses.create(
 print(response.output_text)
 ```
 
-(ver exemplo_02.ipynb)
+(ver [exemplo_02.ipynb](exemplo_02.ipynb))
 
 Já no exemplo abaixo, ao invés de usar a API da Alpha Vantage, o script usa o seu MCP, incluindo os parâmetros na própria chamada da IA, reduzindo o processo para apenas uma etapa.
 
@@ -69,7 +69,7 @@ response = client.responses.create(
 print(response.output_text)
 ```
 
-(ver exemplo_03.ipynb)
+(ver [exemplo_03.ipynb](exemplo_03.ipynb))
 
 ### Postman
 
@@ -108,7 +108,7 @@ if __name__ == "__main__":
     mcp.run(transport="http", port=8000)
 ```
 
-(ver exemplo_04.py)
+(ver [exemplo_04.ipynb](exemplo_04.ipynb))
 
 Observe que é uma sintaxe parecida com a "FastAPI", havendo um "decorator" `@mcp.tool` antes da função.
 
@@ -153,7 +153,7 @@ response = client.responses.create(
 print(response.output_text)
 ```
 
-(ver exemplo_05.ipynb)
+(ver [exemplo_05.ipynb](exemplo_05.ipynb))
 
 ### Autenticação
 
@@ -184,7 +184,7 @@ if __name__ == "__main__":
     mcp.run(transport="http", port=8000)
 ```
 
-(ver exemplo_06.py)
+(ver [exemplo_06.ipynb](exemplo_06.ipynb))
 
 Para testar esse servidor no Postman, é preciso incluir nos "Headers":
 
@@ -214,7 +214,7 @@ response = client.responses.create(
 print(response.output_text)
 ```
 
-(ver exemplo_07.ipynb)
+(ver [exemplo_07.ipynb](exemplo_07.ipynb))
 
 ### NPX
 
@@ -253,7 +253,7 @@ response = client.responses.create(
 print(response.output_text)
 ```
 
-(ver exemplo_08.ipynb)
+(ver [exemplo_08.ipynb](exemplo_08.ipynb))
 
 ### Docker
 
@@ -289,7 +289,7 @@ async def main():
 await main()
 ```
 
-(ver exemplo_09.ipynb)
+(ver [exemplo_09.ipynb](exemplo_09.ipynb))
 
 ### IDE Client
 
