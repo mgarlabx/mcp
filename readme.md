@@ -23,7 +23,7 @@ response = client.responses.create(
 print(response.output_text)
 ```
 
-(ver exemplo_01.ipynb)
+(ver [exemplo_01.ipynb](exemplo_01.ipynb))
 
 Obviamente, o script acima não irá retornar a cotação, pois o modelo não tem como acessar o valor atual da ação solicitada.
 
@@ -265,7 +265,7 @@ O processo é muito simples, basta selecionar os servidores desejados na interfa
 
 Outras opções estão disponíveis, ver [aqui](https://github.com/docker/mcp-gateway/blob/main/docs/mcp-gateway.md) a documentação.
 
-Esse [vídeo](https://www.youtube.com/watch?v=-gpVCg_ButA) tem uma boa explicação desse recurso.   
+Esse [vídeo](https://www.youtube.com/watch?v=-gpVCg_ButA) tem uma boa explicação desse recurso.
 
 ## MCP Clients
 
@@ -322,14 +322,14 @@ Essas visões vão muito além do que simplesmente adicionar contexto e permitem
 
 ### Saiba mais
 
-[https://mcpservers.org](https://mcpservers.org)      
-[https://remote-mcp.com](https://remote-mcp.com)      
-[https://mcpmarket.com](https://mcpmarket.com)      
-[https://pulsemcp.com](https://pulsemcp.com)      
-[https://smithery.ai](https://smithery.ai)      
-      
-[https://docs.claude.com/en/docs/agents-and-tools/remote-mcp-servers](https://docs.claude.com/en/docs/agents-and-tools/remote-mcp-servers)      
-[https://github.com/modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers)      
-[https://github.com/jaw9c/awesome-remote-mcp-servers](https://github.com/jaw9c/awesome-remote-mcp-servers)      
-      
+[https://mcpservers.org](https://mcpservers.org)
+[https://remote-mcp.com](https://remote-mcp.com)
+[https://mcpmarket.com](https://mcpmarket.com)
+[https://pulsemcp.com](https://pulsemcp.com)
+[https://smithery.ai](https://smithery.ai)
+
+[https://docs.claude.com/en/docs/agents-and-tools/remote-mcp-servers](https://docs.claude.com/en/docs/agents-and-tools/remote-mcp-servers)
+[https://github.com/modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers)
+[https://github.com/jaw9c/awesome-remote-mcp-servers](https://github.com/jaw9c/awesome-remote-mcp-servers)
+
 .
