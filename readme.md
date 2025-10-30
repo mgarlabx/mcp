@@ -255,17 +255,13 @@ print(response.output_text)
 
 (ver [exemplo_08.ipynb](exemplo_08.ipynb))
 
-### Docker
+### Gateways
 
-Para os que estão habituados a trabalhar com o Docker, há uma interessante opção para centralizar servidores MCP em um único ponto, o **Docker MCP Gateway**.
+Como era de se esperar, os MCP Servers estão se multiplicando exponencialmente, em um fenômeno semelhante ao que aconteceu com os sites web.
 
-O processo é muito simples, basta selecionar os servidores desejados na interface do Docker Desktop e depois executar esse comando:
+Uma solução que tem surgido para administrar essa multiplicidade de servidores MCPs são os MCP Gateways.
 
-`docker mcp gateway run`
-
-Outras opções estão disponíveis, ver [aqui](https://github.com/docker/mcp-gateway/blob/main/docs/mcp-gateway.md) a documentação.
-
-Esse [vídeo](https://www.youtube.com/watch?v=-gpVCg_ButA) tem uma boa explicação desse recurso.
+Eu elaborei um repositório específico sobre MCP Gateways. Clique [aqui](https://github.com/mgarlabx/mcp-gateway) para acessar.
 
 ## MCP Clients
 
@@ -331,7 +327,6 @@ Essas visões vão muito além do que simplesmente adicionar contexto e permitem
 [https://pulsemcp.com](https://pulsemcp.com)
 
 [https://smithery.ai](https://smithery.ai)
-
 
 [https://docs.claude.com/en/docs/agents-and-tools/remote-mcp-servers](https://docs.claude.com/en/docs/agents-and-tools/remote-mcp-servers)
 
