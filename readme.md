@@ -328,10 +328,14 @@ Essas visões vão muito além do que simplesmente adicionar contexto e permitem
 
 [https://smithery.ai](https://smithery.ai)
 
+[https://glama.ai/mcp](https://glama.ai/mcp)
+
 [https://docs.claude.com/en/docs/agents-and-tools/remote-mcp-servers](https://docs.claude.com/en/docs/agents-and-tools/remote-mcp-servers)
 
 [https://github.com/modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers)
 
 [https://github.com/jaw9c/awesome-remote-mcp-servers](https://github.com/jaw9c/awesome-remote-mcp-servers)
+
+[https://github.com/TensorBlock/awesome-mcp-servers/](https://github.com/TensorBlock/awesome-mcp-servers/)
 
 .
